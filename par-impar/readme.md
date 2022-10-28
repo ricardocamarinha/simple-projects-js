@@ -1,3 +1,3 @@
 # par-impar
 
-<a href="https://ricardocamarinha.github.io/Simple-Projects-Js/par-impar/index.html">Executar Projeto</a>
+<a href="https://ricardocamarinha.github.io/simple-projects-js/par-impar/index.html">Executar Projeto</a>
