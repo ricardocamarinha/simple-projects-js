@@ -1,2 +1,2 @@
-# Simple-Projects-Js
-Projetos simples em js.
+# simple-projects-js
+projetos simples em js.
