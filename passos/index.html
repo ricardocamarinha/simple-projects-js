@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>...</title>
+  <style>
+    body{
+      background: rgb(44, 119, 218);
+      font: normal 10pt arial;
+    }
+
+    header{
+      color: white;
+      text-align: center;
+    }
+
+    section{
+      background: white;
+      padding: 20px;
+      width: 500px;
+      border: 1px solid black;
+      border-radius: 8px;
+      margin: auto;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    footer{
+      color: white;
+      text-align: center;
+      font-style: italic;
+    }
+
+    input{
+      border-radius: 3px;
+      border: 1px solid black;
+      padding: 2px;
+      width: 100px;
+    }
+
+    .button{
+      cursor: pointer;      
+    }
+
+    #resjs{
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body onload="carregar()">
+  <header>
+    <h1>Vamos Contar</h1>
+  </header>
+  <section>
+    <div id="dados">
+      <p>Inicio: <input type="number" name="inicio" id="iniciojs"></p>
+      <p>Fim: <input type="number" name="fim" id="fimjs"></p>
+      <p>Passos: <input type="number" name="passo" id="passojs"></p>
+      <input type="button" value="Contar" onclick="contar()" class="button">
+    </div>
+    <div id="resjs">
+      ...
+    </div>
+  </section>
+  <footer>
+    <p>@Ricardo</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
