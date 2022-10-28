@@ -1,3 +1,3 @@
 # passos
 
-<a href="https://ricardocamarinha.github.io/Simple-Projects-Js/passos/index.html">Executar Projeto</a>
+<a href="https://ricardocamarinha.github.io/simple-projects-js/passos/index.html">Executar Projeto</a>
