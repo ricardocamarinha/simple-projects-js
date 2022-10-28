@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificação</title>
+  <style>
+    body{
+      background-color: bisque;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .container{
+      max-width: 500px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .card{ 
+      margin-top: 200px;
+      background-color: burlywood;
+      height: 300px;
+      width: 400px;
+      padding: 35px;
+      border: 2px solid black;
+      border-radius: 20px;
+    }
+
+    .pergunta{
+      font-size: 15px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .title{
+      text-align: center;
+    }
+
+    .location{
+      border: 2px solid black;
+      padding: 4px;
+      margin-left: 115px;
+      border-radius: 5px;
+    }
+
+    .calculando{
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .botao{
+      margin-top: 20px;
+      margin-left: 150px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .botao:hover{
+      background-color: antiquewhite;
+    }
+  </style>
+</head>
+<body>
+  <div class="card container">
+    <h1 class="title">Fiscalização de Brasileiros(a)!</h1>
+    <p class="pergunta">De que pais você é?</p>
+    <input type="text" name="pais" id="pais" class="location" placeholder="Digite seu pais aqui!">
+    <br>
+    <input class="botao" type="button" value="pesquisar" id="pesquisar" onclick="pesquisar()">
+    <div id="res">
+      <p class="calculando">...</p>
+    </div>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
